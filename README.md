@@ -11,7 +11,7 @@
 - 🌱 I’m currently learning Python and webdesign.
 - 👯 I’m looking to collaborate on open source Python projects and volunteer projects with Python and web.
 - 🤔 I’m looking for help with learn and have some opportunities
-- 💬 Ask me about Python, people management, transportation
+- 💬 Ask me about Python, people management, transportation.
 - 📫 How to reach me: right here or on linkedin, ranieriv!
 - ⚡ Fun fact: I'm a boxer teacher and a jiu jitsu apprentice!
 
