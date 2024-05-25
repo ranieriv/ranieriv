@@ -2,6 +2,11 @@
     boder: 1px dashed grey;
 }
 
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
 .w3-row-padding {
     display:flex;
     flex-wrap: wrap;

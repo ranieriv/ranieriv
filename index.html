@@ -17,12 +17,12 @@
 
 <body>
 <!-- Header -->
-  <header class="w3-container w3-light-gray">
+  <header class="w3-container w3-top w3-light-gray">
     <h1>Ranieri Vilela</h1>
   </header>
 
   <!-- Navbar -->
-  <div class="w3-bar w3-black">
+  <div class="w3-bar w3-black w3-block">
     <a href="#about" class="w3-bar-item w3-button">About</a>
     <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
   </div>
@@ -32,7 +32,7 @@
     
     <!-- About -->
     <section id="about" class="w3-container animate__animated animate__fadeIn">
-      <h2>About Me</h2>
+      <h3 class="w3-light-grey w3-center">About Me</h3>
       <p class="w3-text-grey">I am Ranieri, a dedicated professional with a passion for continuous learning. Holding an
         MBA in Personnel Management from USP ESALQ and a degree in Civil Construction from FATEC São Paulo, I am
         constantly seeking new challenges. Despite having been involved in systems development since 2018, I recently
@@ -45,12 +45,12 @@
 
     <!-- Portfolio -->
     <section id="portfolio" class="w3-container animate__animated animate__fadeInUp">
-      <h2>Portfolio</h2>
+      <h3 class="w3-light-grey w3-center">Portfolio</h3>
       <div class="w3-row-padding">
         <div class="w3-col m6">
           <div class="w3-card">
             <h3 class="w3-center">Engineer Website</h3>
-            <a href="https://engfeh.com"><img src="engfeh.png" alt="Site EngFeh" style="width:100%"></a>
+            <a href="https://engfeh.com"><img src="images/engfeh.png" alt="Site EngFeh" style="width:100%"></a>
             <div class="w3-container">
               <p>A single page, clean design website to a civil engineer.</p>
             </div>
@@ -59,7 +59,7 @@
         <div class="w3-col m6">
           <div class="w3-card">
             <h3 class="w3-center">Python Game</h3>
-            <a href="https://github.com/ranieriv/Alien_Invasion"><img src="alien_invasion.gif"
+            <a href="https://github.com/ranieriv/Alien_Invasion"><img src="images/alien_invasion.gif"
                 alt="gif of the game alien invasion" style="width:100%"></a>
             <div class="w3-container">
               <p>An Alien Invasion style game writed in python, using pygame.</p>
@@ -70,15 +70,21 @@
     </section>
   </div>
 
+  <!-- Alguma outra coisa -->
+
   <!-- Footer -->
-  <footer class="w3-container w3-center w3-bottom w3-block w3-black">
-    <p>&copy; 2024 <a href="https://github.com/ranieriv">ranieriv</a></p>
+  <footer class="w3-display-container w3-center w3-bottom w3-block w3-black w3-card w3-padding">
+    <span>&copy; 2024 ranieriv</span>
+    <span class="w3-display-hover w3-animate-opacity"><a href="https://github.com/ranieriv"><img style="max-height:3em;" src="images/github_logo.png" alt="github logo"></a></span>
+    <span class="w3-display-hover w3-animate-opacity"><a href="https://www.linkedin.com/in/ranierivilela/"><img style="max-height:3em;" src="images/linkedin_logo.png" alt="linkedin logo"></a></span>
   </footer>
 
 </body>
 
 </html>
 
-<!-- TODO: footer: links appearing on hover -->
+<!-- TODO: footer: links appearing on hover FIXED-->
 <!-- TODO: portfolio: modal pages -->
 <!-- TODO: blog section -->
+<!-- TODO: fix footer over content FIXED-->
+<!-- TODO: fix title now showing when page rools FIXED-->
