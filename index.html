@@ -1,86 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RanieriV - Portfolio</title>
+    <meta
+      name="description"
+      content="Explore the projects of Ranieri Vilela, a software developer, python enthusiast and forever learner."
+    />
+    <meta
+      name="keywords"
+      content="Software Development, Web Development, Mobile App Development, Programming Portfolio, Frontend Development, Backend Development, JavaScript, Python, Java, PHP, HTML, CSS, JavaScript"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RanieriV - Portfolio</title>
-  <meta name="description"
-    content="Explore the projects of Ranieri Vilela, a software developer, python enthusiast and forever learner.">
-  <meta name="keywords"
-    content="Software Development, Web Development, Mobile App Development, Programming Portfolio, Frontend Development, Backend Development, JavaScript, Python, Java, PHP, HTML, CSS, JavaScript, Android Development">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <!-- Header -->
+    <header class="w3-container w3-top w3-light-gray">
+      <h1>Ranieri Vilela</h1>
+    </header>
 
-<body>
-<!-- Header -->
-  <header class="w3-container w3-top w3-light-gray">
-    <h1>Ranieri Vilela</h1>
-  </header>
+    <!-- Navbar -->
+    <div class="w3-bar w3-black w3-block">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+    </div>
 
-  <!-- Navbar -->
-  <div class="w3-bar w3-black w3-block">
-    <a href="#about" class="w3-bar-item w3-button">About</a>
-    <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
-  </div>
+    <!-- Content -->
+    <div
+      class="w3-container w3-padding-large"
+      style="max-width: 1200px; margin: auto"
+    >
+      <!-- About -->
+      <section
+        id="about"
+        class="w3-container animate__animated animate__fadeIn"
+      >
+        <h3 class="w3-light-grey w3-center">About Me</h3>
+        <p class="w3-text-grey">
+          I am Ranieri, a dedicated professional with a passion for continuous
+          learning. Holding an MBA in Personnel Management from USP ESALQ and a
+          degree in Civil Construction from FATEC São Paulo, I am constantly
+          seeking new challenges. Despite having been involved in systems
+          development since 2018, I recently completed a technical course in
+          Systems Development in 2023 at ETEC Martin Luther King. Proficient in
+          Python, Java, and Web Design, I have successfully developed two
+          websites for local businesses. I am currently seeking opportunities to
+          further enhance my skills, apply my technical expertise, and
+          contribute to the success of an organization. Committed,
+          collaborative, and possessing strong communication skills, I thrive in
+          team environments.
+        </p>
+      </section>
 
-  <!-- Content -->
-  <div class="w3-container w3-padding-large" style="max-width: 1200px; margin: auto;">
-    
-    <!-- About -->
-    <section id="about" class="w3-container animate__animated animate__fadeIn">
-      <h3 class="w3-light-grey w3-center">About Me</h3>
-      <p class="w3-text-grey">I am Ranieri, a dedicated professional with a passion for continuous learning. Holding an
-        MBA in Personnel Management from USP ESALQ and a degree in Civil Construction from FATEC São Paulo, I am
-        constantly seeking new challenges. Despite having been involved in systems development since 2018, I recently
-        completed a technical course in Systems Development in 2023 at ETEC Martin Luther King. Proficient in Python,
-        Java, and Web Design, I have successfully developed two websites for local businesses. I am currently seeking
-        opportunities to further enhance my skills, apply my technical expertise, and contribute to the success of an
-        organization. Committed, collaborative, and possessing strong communication skills, I thrive in team
-        environments.</p>
-    </section>
-
-    <!-- Portfolio -->
-    <section id="portfolio" class="w3-container animate__animated animate__fadeInUp">
-      <h3 class="w3-light-grey w3-center">Portfolio</h3>
-      <div class="w3-row-padding">
-        <div class="w3-col m6">
-          <div class="w3-card">
-            <h3 class="w3-center">Engineer Website</h3>
-            <a href="https://engfeh.com"><img src="images/engfeh.png" alt="Site EngFeh" style="width:100%"></a>
-            <div class="w3-container">
-              <p>A single page, clean design website to a civil engineer.</p>
+      <!-- Portfolio -->
+      <section
+        id="portfolio"
+        class="w3-container animate__animated animate__fadeInUp"
+      >
+        <h3 class="w3-light-grey w3-center">Portfolio</h3>
+        <div class="w3-row-padding">
+          <div class="w3-col m6">
+            <div class="w3-card">
+              <h3 class="w3-center">Engineer Website</h3>
+              <a href="https://engfeh.com"
+                ><img
+                  src="images/engfeh.png"
+                  alt="Site EngFeh"
+                  style="width: 100%"
+              /></a>
+              <div class="w3-container">
+                <p>A single page, clean design website to a civil engineer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="w3-col m6">
+            <div class="w3-card">
+              <h3 class="w3-center">Python Game</h3>
+              <a href="https://github.com/ranieriv/Alien_Invasion"
+                ><img
+                  src="images/alien_invasion.gif"
+                  alt="gif of the game alien invasion"
+                  style="width: 100%"
+              /></a>
+              <div class="w3-container">
+                <p>
+                  An Alien Invasion style game writed in python, using pygame.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="w3-col m6">
-          <div class="w3-card">
-            <h3 class="w3-center">Python Game</h3>
-            <a href="https://github.com/ranieriv/Alien_Invasion"><img src="images/alien_invasion.gif"
-                alt="gif of the game alien invasion" style="width:100%"></a>
-            <div class="w3-container">
-              <p>An Alien Invasion style game writed in python, using pygame.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
+      </section>
+    </div>
 
-  <!-- Alguma outra coisa -->
+    <!-- Alguma outra coisa -->
 
-  <!-- Footer -->
-  <footer class="w3-display-container w3-center w3-bottom w3-block w3-black w3-card w3-padding">
-    <span>&copy; 2024 ranieriv</span>
-    <span class="w3-display-hover w3-animate-opacity"><a href="https://github.com/ranieriv"><img style="max-height:3em;" src="images/github_logo.png" alt="github logo"></a></span>
-    <span class="w3-display-hover w3-animate-opacity"><a href="https://www.linkedin.com/in/ranierivilela/"><img style="max-height:3em;" src="images/linkedin_logo.png" alt="linkedin logo"></a></span>
-  </footer>
-
-</body>
-
+    <!-- Footer -->
+    <footer
+      class="w3-display-container w3-center w3-bottom w3-block w3-black w3-card w3-padding w3-row"
+    >
+      <span class="w3-col s4 m12 l12">&copy; 2024 ranieriv</span>
+      <span class="w3-display-hover w3-animate-opacity w3-hide-small"
+        ><a href="https://github.com/ranieriv"
+          ><img
+            style="max-height: 3em"
+            src="images/github_logo.png"
+            alt="github logo" /></a
+      ></span>
+      <span class="w3-display-hover w3-animate-opacity w3-hide-small"
+        ><a href="https://www.linkedin.com/in/ranierivilela/"
+          ><img
+            style="max-height: 3em"
+            src="images/linkedin_logo.png"
+            alt="linkedin logo" /></a
+      ></span>
+      <!-- Mobile -->
+      <span class="w3-col s4 w3-hide-medium w3-hide-large"
+        ><a href="https://github.com/ranieriv"
+          ><img
+            style="max-height: 3em"
+            src="images/github_logo.png"
+            alt="github logo" /></a
+      ></span>
+      <span class="w3-col s4 w3-hide-medium w3-hide-large"
+        ><a href="https://www.linkedin.com/in/ranierivilela/"
+          ><img
+            style="max-height: 3em"
+            src="images/linkedin_logo.png"
+            alt="linkedin logo" /></a
+      ></span>
+    </footer>
+  </body>
 </html>
 
 <!-- TODO: footer: links appearing on hover FIXED-->
